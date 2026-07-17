@@ -47,9 +47,13 @@ Gloom is a modular 2D game engine prototype written in C using SDL2. It features
 
 ## Project Structure
 src/        — source code
+
 include/    — headers
+
 Textures/   — game art assets
+
 Sound/      — audio assets
+
 bin/        — build output
 
 ## Roadmap
