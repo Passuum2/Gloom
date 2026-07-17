@@ -1,2 +1,2 @@
 # Gloom
-A modular 2D game engine built in C using SDL2, designed for performance, flexibility, and rapid game development.
+Gloom is a modular 2D game engine prototype written in C using SDL2. It features an object-oriented gameplay architecture supporting player movement, collision detection, class selection, and persistent save/load functionality. The engine includes a custom texture asset pipeline and UI menu system, with rendering and system interfaces documented to support integration of artist-created assets and ongoing feature development.
