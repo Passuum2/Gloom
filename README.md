@@ -36,14 +36,15 @@ Gloom is a modular 2D game engine prototype written in C using SDL2. It features
 ## Build & Run
 ### Prerequisites
 - GCC compiler
-- SDL2 
-
+- SDL2
+  
 ### Steps
 1. Clone the repo
-2. Build:
+2.  Download the SDL2 development libraries (MinGW package, matching the build command below) from the official SDL2 releases page, and extract into lib/SDL2.
+3. Build:
    - **Windows:** `./run`
    - **Manual:** `gcc -g -O2 -I include src/*.c -L lib/SDL2/lib -lmingw32 -lSDL2main -lSDL2 -o bin/Gloom.exe`
-3. Run the executable: `bin/Gloom.exe`
+4. Run the executable: `bin/Gloom.exe`
 
 ## Project Structure
 src/        — source code
