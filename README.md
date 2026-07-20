@@ -57,6 +57,8 @@ Sound/      — audio assets
 
 bin/        — build output
 
+lib/        — sdl2 library
+
 ## Roadmap
 - [ ] Combat system
 - [ ] Enemy AI
